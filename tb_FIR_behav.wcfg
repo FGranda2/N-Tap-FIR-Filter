@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_FIR_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_FIR" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="959.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="2,585.001 ns"></ZoomEndTime>
+      <Cursor1Time time="2,270.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="275"></NameColumnWidth>
+      <ValueColumnWidth column_width="128"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="17" />
+   <wave_markers>
+      <marker time="350000" label="" />
+      <marker time="1390000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/tb_FIR/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FIR/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FIR/c_enable" type="logic">
+      <obj_property name="ElementShortName">c_enable</obj_property>
+      <obj_property name="ObjectShortName">c_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FIR/sample_data" type="array">
+      <obj_property name="ElementShortName">sample_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">sample_data[15:0]</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+      <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FIR/filtered_data" type="array">
+      <obj_property name="ElementShortName">filtered_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">filtered_data[31:0]</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+      <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FIR/state_reg" type="array">
+      <obj_property name="ElementShortName">state_reg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">state_reg[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FIR/cntr" type="array">
+      <obj_property name="ElementShortName">cntr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">cntr[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FIR/wvfm_period" type="array">
+      <obj_property name="ElementShortName">wvfm_period[3:0]</obj_property>
+      <obj_property name="ObjectShortName">wvfm_period[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FIR/init" type="array">
+      <obj_property name="ElementShortName">init[4:0]</obj_property>
+      <obj_property name="ObjectShortName">init[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FIR/sendSample0" type="array">
+      <obj_property name="ElementShortName">sendSample0[4:0]</obj_property>
+      <obj_property name="ObjectShortName">sendSample0[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FIR/sendSample1" type="array">
+      <obj_property name="ElementShortName">sendSample1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">sendSample1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FIR/sendSample2" type="array">
+      <obj_property name="ElementShortName">sendSample2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">sendSample2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FIR/sendSample3" type="array">
+      <obj_property name="ElementShortName">sendSample3[4:0]</obj_property>
+      <obj_property name="ObjectShortName">sendSample3[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FIR/sendSample4" type="array">
+      <obj_property name="ElementShortName">sendSample4[4:0]</obj_property>
+      <obj_property name="ObjectShortName">sendSample4[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FIR/sendSample5" type="array">
+      <obj_property name="ElementShortName">sendSample5[4:0]</obj_property>
+      <obj_property name="ObjectShortName">sendSample5[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FIR/sendSample6" type="array">
+      <obj_property name="ElementShortName">sendSample6[4:0]</obj_property>
+      <obj_property name="ObjectShortName">sendSample6[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_FIR/sendSample7" type="array">
+      <obj_property name="ElementShortName">sendSample7[4:0]</obj_property>
+      <obj_property name="ObjectShortName">sendSample7[4:0]</obj_property>
+   </wvobject>
+</wave_config>
